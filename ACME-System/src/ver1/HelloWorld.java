@@ -10,7 +10,11 @@ public class HelloWorld {
 	
 	public static void heyNow() {
 		String Msg = "Hey Now!";
-		System.out.println(Msg);
+		System.out.println(Msg); 
+	}
+	
+	public static void whatFor(String argument) {
+		System.out.println(argument + ", what for?");
 	}
 
 }
